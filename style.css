@@ -1,2 +1,23 @@
-header {
-    background-color: white;}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.cabecalho-imagem{
+    width: 7%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 15px 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
